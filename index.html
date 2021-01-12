@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0" charset=”utf-8”>
+	<link rel="stylesheet" type="text/css" href="css\styleMenu.css">
+	<link rel="stylesheet" type="text/css" href="css\home.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery.min.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery.theme.css">
+	<link rel="stylesheet" type="text/css" href="css\stylePaginas.css">
+	<script>
+		function redirecionarCursos(indice){
+			const linksCursos = [
+			"pagina1.html",
+			"pagina2.html",
+			"pagina3.html",
+			"pagina4.html",
+			"pagina5.html",
+			"pagina6.html",
+			"pagina7.html",
+			"pagina8.html"
+			];
+
+			window.location.href = linksCursos[indice];
+		}
+	</script>
+</head>
+
+<body>
+	<a href="https://portal.estacio.br/" target="_blank"><img src="imagem\logoEstacio\logo-estacio-horizontal.png"
+			alt="estacio"></a>
+	<nav>
+		<ul>
+			<li><a href="index.html"><img src="imagem\icons\home-4-line.png" height="20"></a></li>
+			<li>
+				<a href="#">Cursos</a>
+				<ul>
+					<li><a href="pagina1.html">JavaScript</a></li>
+					<li><a href="pagina2.html">Angular</a></li>
+					<li><a href="pagina3.html">NodeJS</a></li>
+					<li><a href="pagina4.html">React</a></li>
+					<li><a href="pagina5.html">PHP</a></li>
+					<li><a href="pagina6.html">Python</a></li>
+					<li><a href="pagina7.html">ASP.NET</a></li>
+					<li><a href="pagina8.html">Desenvolvimento Web</a></li>
+				</ul>
+			</li>
+
+			<li><a href="login.html">Login</a></li>
+			<li><a href="cadastro.html">Cadastro</a></li>
+			<li><a href="pagina12.html"><label>Contato</label></a></li>
+		</ul>
+
+	</nav>
+	
+		<h1>Cursos Online &lt;&#47;&gt;</h1>
+		<p class="apresentacao">Bem-Vindo a plataforma de Cursos online para desenvolvedores. Aqui você encontra o curso que precisa para atualizar seu currículo de forma gratuita.</p>
+	
+	<div class="gallery autoplay items-8"> 
+		<div id="item-1" class="control-operator"></div>
+		<div id="item-2" class="control-operator"></div>
+		<div id="item-3" class="control-operator"></div>
+		<div id="item-4" class="control-operator"></div>
+		<div id="item-5" class="control-operator"></div>
+		<div id="item-6" class="control-operator"></div> 
+		<div id="item-7" class="control-operator"></div> 
+		<div id="item-8" class="control-operator"></div> 
+		
+		<figure class="item">
+			<h1><img src="imagem/imgCursos/imgJavascript.png" onclick="redirecionarCursos(0)" ></h1>
+		</figure>
+
+		<figure class="item">
+			<h1><img src="imagem/imgCursos/imgAngular.png" onclick="redirecionarCursos(1)" ></h1>
+		</figure>
+
+		<figure class="item">
+			<h1><img src="imagem/imgCursos/imgNodejs.png" onclick="redirecionarCursos(2)" ></h1>
+		</figure>
+
+		<figure class="item">
+			<h1><img src="imagem/imgCursos/imgPHP.png" onclick="redirecionarCursos(4)" ></h1>
+		</figure>
+
+		<figure class="item">
+			<h1><img src="imagem/imgCursos/imgReact.png" onclick="redirecionarCursos(3)" ></h1>
+		</figure>
+
+		<figure class="item">
+			<h1><img src="imagem/imgCursos/imgPython.png" onclick="redirecionarCursos(5)" ></h1>
+		</figure>
+
+		<figure class="item">
+			<h1><img src="imagem/imgCursos/imgASP.NET.png" onclick="redirecionarCursos(6)" ></h1>
+		</figure>
+
+		<figure class="item">
+			<h1><img src="imagem/imgCursos/cursoWeb.jpg" onclick="redirecionarCursos(7)" ></h1>
+		</figure>
+
+		<div class="controls">
+			<a href="#item-1" class="control-button">.</a>
+			<a href="#item-2" class="control-button">.</a>
+			<a href="#item-3" class="control-button">.</a>
+			<a href="#item-4" class="control-button">.</a>
+			<a href="#item-5" class="control-button">.</a>
+			<a href="#item-6" class="control-button">.</a>
+			<a href="#item-7" class="control-button">.</a>
+			<a href="#item-8" class="control-button">.</a>
+		</div>
+
+	</div>
+	<footer>
+		<div class="rodapePagina">
+			<table>
+				<tr>
+					<td>Filipe Araujo Cardoso dos Santos</td>
+					<td>Matricula 201907353372</td>
+				</tr>
+				<tr>
+					<td>Lorrayne Neves De Souza</td>
+					<td>Matricula 201907353381</td>
+				</tr>
+			</table>
+
+		</div>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+html,body {
+   margin:0 auto;
+   padding:0 auto;
+   height:100%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+article{
+padding: 15px;
+overflow-x: hidden;
+max-height: 430px;
+overflow-y: scroll;
+}
+
+div.rodapePagina table tr th{
+    text-align: left;
+    
+     
+    
+}
+.rodapePagina{
+    /* position: fixed; */
+    bottom: 0px;
+    font-size: 14px;
+    font-weight: 0;
+}
+footer {
+    margin-top: 50px;
+}
+p {
+    line-height: 25px;
+    text-align: justify;
+}

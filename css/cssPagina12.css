@@ -1,0 +1,16 @@
+html,body {
+   margin:0 auto;
+   padding:0 auto;
+   height:100%;
+}
+.tablaContato{
+  position: relative;
+  top:10%;
+  margin:0 auto;
+  width: 500px;
+  height:70%;
+  transform: translate(-50%,-50%);   
+}
+.textArea{
+  resize: none;
+}

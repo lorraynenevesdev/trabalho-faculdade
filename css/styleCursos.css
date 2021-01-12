@@ -1,0 +1,57 @@
+html,body {
+ margin:0;
+ padding:0;
+ height:100%;
+}
+
+#imgWeb{
+  width: 240px;
+  height: 135px;
+}
+div.imgCursos{
+  position:relative;
+  z-index: -900;
+  margin-top: 3%;
+  margin-left:1.5%; 
+}
+
+div.divCarrinho{
+  position: relative;
+  z-index: -900;
+  margin-top:1%;
+  margin-left:0.1%;
+  width: 400px;
+  height: 200px; 
+}
+
+button.buttonCarrinho{
+  display: block;
+  color: #ffffff;
+  background-color: #0f7c90;
+  font-size: 16px;
+  width:60%;
+  height: 21%;
+}
+
+div.textoCursos{
+  position: absolute;
+  margin-top: -55%;
+  margin-left:65%; 
+  width: 600px;
+}
+div.outrosCursos{
+ position: relative;
+  margin-top:0%;
+  margin-left:-43%;
+  width: 400px;
+  height: 200px;
+  text-align: justify;
+}
+
+/* text p {
+  min-height: 200px;
+} */
+/* .outrosCursos {
+  position: relative;
+  bottom: -300px;
+} */

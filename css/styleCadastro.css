@@ -1,0 +1,96 @@
+html,body {
+   margin:0 auto;
+   padding:0 auto;
+   height:100%;
+}
+div.Cadastro{
+ top:10%;
+ margin:0 auto;
+ width: 500px;
+ height:70%;
+ -ms-transform: translate(-50%, -50%);
+}
+.buttonInscrever{
+  display: block;
+  top: 115%;
+  left: 50px;
+  border-radius: 2rem;
+  -ms-transform: translate(-50%, -50%);
+
+  font-size: 16px;
+  background-color: #1C1C1C;
+  color: #ffffff;
+  width:150px;
+  height: 40px;
+  border-radius: 2rem;
+  float: left;
+
+}
+
+.buttonLogin{
+  display: block;
+  border-radius: 2rem;
+  -ms-transform: translate(-50%, -50%);
+
+  font-size: 16px;
+  background-color: #1C1C1C;
+  color: #ffffff;
+  width:100px;
+  height: 40px;
+
+}
+
+.buttonEnviar{
+  display: block;
+  top: 115%;
+  margin-right: 50px;
+  -ms-transform: translate(-50%, -50%);
+/*
+	Config do Botão Enviar
+*/
+  font-size: 16px;
+  background-color:#f5f5f5;
+  color: #1C1C1C;
+  width:150px;
+  height: 40px;
+  border-radius: 2rem;
+  display: inline;
+  float: right;
+
+
+}
+
+input:not([type='checkbox']), select{
+  height: 30px;
+  border-radius: 0.3rem;
+  border-color: #eee;
+  min-width: 300px;
+
+}
+input[type='submit']{
+  border-radius: 2rem !important;
+}
+
+textarea{
+  height: 60px;
+  border-radius: 0.3rem;
+  border-color: #eee;
+  min-width: 100px;
+}
+
+label{
+  display: block;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+  border-color: #cccccc;
+  box-shadow: 0 0 10px #cccccc;
+  
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 20pt;
+}
